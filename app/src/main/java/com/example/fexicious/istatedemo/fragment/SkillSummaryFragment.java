@@ -1,16 +1,14 @@
 package com.example.fexicious.istatedemo.fragment;
 
-import android.graphics.Color;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.fexicious.istatedemo.R;
 import com.example.fexicious.istatedemo.Utill;
-import com.example.fexicious.istatedemo.utills.StyleManager;
 import com.flexicious.nestedtreedatagrid.FlexDataGrid;
 import com.flexicious.nestedtreedatagrid.interfaces.IFlexDataGridCell;
 
