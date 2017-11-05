@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_hitting_percent"
+        android:icon="@drawable/ic_games_black_24dp"
+        android:title="@string/title_hitting_percent" />
+
+    <item
+        android:id="@+id/navigation_skill_summary"
+        android:icon="@drawable/ic_featured_play_list_black_24dp"
+        android:title="@string/title_skill_summary" />
+
+    <item
+        android:id="@+id/navigation_points_scored"
+        android:icon="@drawable/ic_view_headline_black_24dp"
+        android:title="@string/title_points_scored" />
+
+</menu>

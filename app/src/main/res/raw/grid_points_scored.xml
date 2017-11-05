@@ -1,0 +1,11 @@
+<grid  enableFooters="true" cellTextColorFunction="getCellTextColor" cellBackgroundColorFunction="getCellBackgroundColor">
+    <level selectedKeyField="id" pageSize="50" >
+        <columns>
+            <column dataField="id" headerText="ROT" footerLabel="TEAM" width="200" textAlign="center"/>
+            <column dataField="oac" headerText="OAC"  textAlign="center" footerOperation="sum" width="150"/>
+            <column dataField="scorePercent"  headerText="%"  textAlign="center" footerOperation="average" width="200"/>
+            <column dataField="opp" headerText="OPP" textAlign="center" footerOperation="sum" width="150"/>
+            <column headerText="%" dataField="oppPercent" textAlign="center" footerOperation="average" width="200"/>
+        </columns>
+    </level>
+</grid>

@@ -1,0 +1,11 @@
+<grid cellBackgroundColorFunction="getCellBackgroundColor" enableFooters="true" cellTextColorFunction="getCellTextColor" >
+    <level selectedKeyField="id"  pageSize="50">
+        <columns>
+            <column dataField="player" columnLockMode="left" coloheaderText="PLAYER" width="300" footerLabel="TEAM"/>
+            <column dataField="attack" headerText="ATT"  textAlign="center" width="150" footerOperation="sum"/>
+            <column dataField="kill"  headerText="KILL"  textAlign="center" width="150" footerOperation="sum"/>
+            <column dataField="error" headerText="ERR" textAlign="center" width="150" footerOperation="sum"/>
+            <column headerText="HIT %" dataField="hitPercent" width="200" textAlign="center" footerOperation="average"/>
+        </columns>
+    </level>
+</grid>

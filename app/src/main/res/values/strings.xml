@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IStateDemo</string>
+    <string name="title_hitting_percent">Hitting %</string>
+    <string name="title_skill_summary">Skill summary</string>
+    <string name="title_points_scored">Points scored</string>
+    <string name="hittingPercent">Hitting Percent Demo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

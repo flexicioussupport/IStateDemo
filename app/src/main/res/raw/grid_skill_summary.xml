@@ -1,0 +1,49 @@
+<grid enableFilters="true" enableFooters="true" enablePrint="true" enablePreferencePersistence="true" forcePagerRow="true" enablePaging="true"
+    enableExport="true" enableCopy="true" preferencePersistenceKey="simpleGrid"
+    useCompactPreferences="true"
+    horizontalScrollPolicy="auto" footerDrawTopBorder="true" autoRefresh="autoRefreshHandler"
+    enablePdf="true"  cellBackgroundColorFunction="getCellBackgroundColor" cellTextColorFunction="getCellTextColor">
+    <level selectedKeyField="id"  pageSize="50">
+        <columns headerAlign="center">
+            <columnGroup headerText="ohana 16 - 3">
+                <columnGroups>
+                    <column dataField="player" columnLockMode="left" headerText="PLAYER" footerLabel="Total" filterControl="TextInput" filterOperation="Contains"/>
+                </columnGroups>
+            </columnGroup>
+            <columnGroup headerText="SERVING" textAlign="right" headerAlign="center">
+                <columnGroups>
+                    <column dataField="ace" headerText="ACE" textAlign="center" headerAlign="center" footerOperation="sum"/>
+                    <column dataField="error" headerText="ERR" sortNumeric="true" textAlign="center" footerOperation="sum"/>
+                    <column dataField="inPercent" headerText="IN %" sortNumeric="true" textAlign="center" footerOperation="sum"/>
+                </columnGroups>
+            </columnGroup>
+            <columnGroup headerText="HITTING"  textAlign="center">
+                <columnGroups>
+                    <column dataField="kill" headerText="KILL" textAlign="center" footerOperation="sum"/>
+                    <column dataField="error" headerText="ERR" sortNumeric="true" textAlign="center" footerOperation="sum"/>
+                    <column dataField="hitPercent" headerText="HIT %" sortNumeric="true" textAlign="center" footerOperation="sum"/>
+                </columnGroups>
+            </columnGroup>
+            <columnGroup headerText="PASS">
+                <columnGroups>
+                    <column dataField="avarage" headerText="AVG" textAlign="center" footerOperation="sum"/>
+                </columnGroups>
+            </columnGroup>
+            <columnGroup headerText="BLK">
+                <columnGroups>
+                    <column dataField="ttl" headerText="TTL" textAlign="center" footerOperation="sum"/>
+                </columnGroups>
+            </columnGroup>
+            <columnGroup headerText="SET">
+                <columnGroups>
+                    <column dataField="ast" headerText="AST" textAlign="center" footerOperation="sum"/>
+                </columnGroups>
+            </columnGroup>
+            <columnGroup headerText="DEF">
+                <columnGroups>
+                    <column headerText="DIG" textAlign="center" dataField="dig" footerOperation="average"/>
+                </columnGroups>
+            </columnGroup>
+        </columns>
+    </level>
+</grid>
